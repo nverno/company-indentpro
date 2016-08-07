@@ -62,8 +62,7 @@
 ;; ![test](test.png)
 
 ;;; Code:
-(eval-when-compile
-  (require 'company))
+(require 'company)
 
 (defgroup company-indentpro nil
   "Company completion backend for '.indent.pro' files."
