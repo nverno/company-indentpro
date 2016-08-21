@@ -6,8 +6,6 @@
 ;; Copyright (C) 2016, Noah Peart, all rights reserved.
 ;; Created:  6 August 2016
 
-;;; Commentary:
-
 ;; This file is not part of GNU Emacs.
 ;;
 ;; This program is free software; you can redistribute it and/or
@@ -24,6 +22,8 @@
 ;; along with this program; see the file COPYING.  If not, write to
 ;; the Free Software Foundation, Inc., 51 Franklin Street, Fifth
 ;; Floor, Boston, MA 02110-1301, USA.
+
+;;; Commentary:
 
 ;;; Description:
 
@@ -177,5 +177,7 @@ output.")
     (doc-buffer (company-indentpro-doc arg))
     (sorted t)
     (candidates (company-indentpro-candidates arg))))
+
+(provide 'company-indentpro)
 
 ;;; company-indentpro.el ends here
